@@ -88,6 +88,7 @@
     else if(isRead){
         //阅读灯
         mainImg.image = [UIImage imageNamed:@"bg_yuedudeng"];
+        NSLog(@"username");
     }
     else{
         //灯带
@@ -110,6 +111,7 @@
             make.size.mas_equalTo(CGSizeMake(300, 160));
         }
         else{
+            
             make.top.mas_equalTo(0);
             make.centerX.mas_equalTo(self.view.mas_centerX);
             make.size.mas_equalTo(CGSizeMake(250, 135));
