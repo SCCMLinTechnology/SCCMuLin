@@ -1,0 +1,735 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0123169E1F592CCD0092A86D /* SofaBrokenTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0123169D1F592CCD0092A86D /* SofaBrokenTestViewController.m */; };
+		013C7BDD1EC9993500506FA4 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 013C7BDC1EC9993500506FA4 /* CoreBluetooth.framework */; };
+		01529E921F5EA91000F2D243 /* UserOPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01529E911F5EA91000F2D243 /* UserOPViewController.m */; };
+		0162EF451F3999A200EF6851 /* DrawImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0162EF441F3999A200EF6851 /* DrawImageViewController.m */; };
+		016B77601F4E838C00813DD1 /* OPHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 016B775F1F4E838C00813DD1 /* OPHeaderView.m */; };
+		016B77631F4E9E6200813DD1 /* OPFunctionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 016B77621F4E9E6200813DD1 /* OPFunctionView.m */; };
+		016B77661F4EDDF100813DD1 /* LYTBackView.m in Sources */ = {isa = PBXBuildFile; fileRef = 016B77651F4EDDF100813DD1 /* LYTBackView.m */; };
+		017D4FFA1F5D2310003750D6 /* IntroduceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 017D4FF91F5D2310003750D6 /* IntroduceViewController.m */; };
+		018F8D7A1F4D542600F9C8FF /* LayoutSofaView.m in Sources */ = {isa = PBXBuildFile; fileRef = 018F8D791F4D542600F9C8FF /* LayoutSofaView.m */; };
+		0193A9651F4D638A00ABC2A5 /* UILabel+CGXLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0193A9641F4D638A00ABC2A5 /* UILabel+CGXLabel.m */; };
+		01A1D2FC1F2EC45400F7D163 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A1D2FB1F2EC45400F7D163 /* TestViewController.m */; };
+		01A562791EA460AA00121305 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A562781EA460AA00121305 /* main.m */; };
+		01A5627C1EA460AA00121305 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A5627B1EA460AA00121305 /* AppDelegate.m */; };
+		01A562821EA460AA00121305 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01A562801EA460AA00121305 /* Main.storyboard */; };
+		01A562841EA460AA00121305 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01A562831EA460AA00121305 /* Assets.xcassets */; };
+		01A562871EA460AA00121305 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01A562851EA460AA00121305 /* LaunchScreen.storyboard */; };
+		01A562971EA49AEA00121305 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A562961EA49AEA00121305 /* BaseViewController.m */; };
+		01A562A61EA4D02D00121305 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01A562A51EA4D02D00121305 /* CFNetwork.framework */; };
+		01EAB0421F2894BE00675151 /* VWProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 01EAB0321F2894BE00675151 /* VWProgressHUD.bundle */; };
+		01EAB0431F2894BE00675151 /* UIView+VWAutolayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 01EAB0351F2894BE00675151 /* UIView+VWAutolayout.m */; };
+		01EAB0441F2894BE00675151 /* VWBaseContentView+VWLoading.m in Sources */ = {isa = PBXBuildFile; fileRef = 01EAB0371F2894BE00675151 /* VWBaseContentView+VWLoading.m */; };
+		01EAB0451F2894BE00675151 /* VWBaseContentView+VWMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 01EAB0391F2894BE00675151 /* VWBaseContentView+VWMessage.m */; };
+		01EAB0461F2894BE00675151 /* VWBaseContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01EAB03B1F2894BE00675151 /* VWBaseContentView.m */; };
+		01EAB0471F2894BE00675151 /* VWConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 01EAB03D1F2894BE00675151 /* VWConfig.m */; };
+		01EAB0481F2894BE00675151 /* VWProgressHUDManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 01EAB0411F2894BE00675151 /* VWProgressHUDManager.m */; };
+		1C77FE78584F3B6645811AAE /* Pods_SmartHome.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8DF73D05373376F2E662F68 /* Pods_SmartHome.framework */; };
+		9E421F021F233993005D195F /* UIButton+time.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E421F011F233993005D195F /* UIButton+time.m */; };
+		9E61DA0F1F4EFBDE00CD31B4 /* LightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E61DA0E1F4EFBDE00CD31B4 /* LightViewController.m */; };
+		9E6FE7B51F555BBD00CFAD96 /* CCHStepSizeSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E6FE7B41F555BBD00CFAD96 /* CCHStepSizeSlider.m */; };
+		9E9E72251F1CC25A0013C154 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E9E72241F1CC25A0013C154 /* HomeViewController.m */; };
+		9E9E722A1F1CC51A0013C154 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E9E72271F1CC51A0013C154 /* ProfileViewController.m */; };
+		9E9E722B1F1CC51A0013C154 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E9E72291F1CC51A0013C154 /* SettingViewController.m */; };
+		9E9E722F1F1CC5310013C154 /* SettingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E9E722D1F1CC5310013C154 /* SettingCell.m */; };
+		9E9E72301F1CC5310013C154 /* SettingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E9E722E1F1CC5310013C154 /* SettingCell.xib */; };
+		9E9E72361F1CC55E0013C154 /* LayoutSofaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E9E72341F1CC55E0013C154 /* LayoutSofaViewController.m */; };
+		9E9E72391F1CC56C0013C154 /* OPAPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E9E72381F1CC56C0013C154 /* OPAPViewController.m */; };
+		9E9E72461F1CC5860013C154 /* BFDragGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E9E723B1F1CC5860013C154 /* BFDragGestureRecognizer.m */; };
+		9E9E72471F1CC5860013C154 /* BLEIToll.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E9E723D1F1CC5860013C154 /* BLEIToll.m */; };
+		9E9E72481F1CC5860013C154 /* BLEModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E9E723F1F1CC5860013C154 /* BLEModel.m */; };
+		9E9E72491F1CC5860013C154 /* CRC.c in Sources */ = {isa = PBXBuildFile; fileRef = 9E9E72401F1CC5860013C154 /* CRC.c */; };
+		9E9E724A1F1CC5860013C154 /* DotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E9E72431F1CC5860013C154 /* DotView.m */; };
+		9E9E724B1F1CC5860013C154 /* PZMessageUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E9E72451F1CC5860013C154 /* PZMessageUtils.m */; };
+		9E9E724E1F1CC59B0013C154 /* CustomNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E9E724D1F1CC59B0013C154 /* CustomNavViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0123169C1F592CCD0092A86D /* SofaBrokenTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SofaBrokenTestViewController.h; sourceTree = "<group>"; };
+		0123169D1F592CCD0092A86D /* SofaBrokenTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SofaBrokenTestViewController.m; sourceTree = "<group>"; };
+		013C7BDC1EC9993500506FA4 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		01529E901F5EA91000F2D243 /* UserOPViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserOPViewController.h; sourceTree = "<group>"; };
+		01529E911F5EA91000F2D243 /* UserOPViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserOPViewController.m; sourceTree = "<group>"; };
+		0162EF431F3999A200EF6851 /* DrawImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawImageViewController.h; sourceTree = "<group>"; };
+		0162EF441F3999A200EF6851 /* DrawImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawImageViewController.m; sourceTree = "<group>"; };
+		016B775E1F4E838C00813DD1 /* OPHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OPHeaderView.h; sourceTree = "<group>"; };
+		016B775F1F4E838C00813DD1 /* OPHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OPHeaderView.m; sourceTree = "<group>"; };
+		016B77611F4E9E6200813DD1 /* OPFunctionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OPFunctionView.h; sourceTree = "<group>"; };
+		016B77621F4E9E6200813DD1 /* OPFunctionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OPFunctionView.m; sourceTree = "<group>"; };
+		016B77641F4EDDF100813DD1 /* LYTBackView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYTBackView.h; sourceTree = "<group>"; };
+		016B77651F4EDDF100813DD1 /* LYTBackView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYTBackView.m; sourceTree = "<group>"; };
+		017D4FF81F5D2310003750D6 /* IntroduceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntroduceViewController.h; sourceTree = "<group>"; };
+		017D4FF91F5D2310003750D6 /* IntroduceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntroduceViewController.m; sourceTree = "<group>"; };
+		018F8D781F4D542600F9C8FF /* LayoutSofaView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayoutSofaView.h; sourceTree = "<group>"; };
+		018F8D791F4D542600F9C8FF /* LayoutSofaView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LayoutSofaView.m; sourceTree = "<group>"; };
+		0193A9631F4D638A00ABC2A5 /* UILabel+CGXLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+CGXLabel.h"; sourceTree = "<group>"; };
+		0193A9641F4D638A00ABC2A5 /* UILabel+CGXLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+CGXLabel.m"; sourceTree = "<group>"; };
+		01A1D2FA1F2EC45400F7D163 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		01A1D2FB1F2EC45400F7D163 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		01A562741EA460AA00121305 /* SmartHome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartHome.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		01A562781EA460AA00121305 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		01A5627A1EA460AA00121305 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		01A5627B1EA460AA00121305 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		01A562811EA460AA00121305 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		01A562831EA460AA00121305 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		01A562861EA460AA00121305 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		01A562881EA460AA00121305 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01A562911EA46ED100121305 /* Config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
+		01A562951EA49AEA00121305 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		01A562961EA49AEA00121305 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		01A562A51EA4D02D00121305 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		01EAB0321F2894BE00675151 /* VWProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = VWProgressHUD.bundle; sourceTree = "<group>"; };
+		01EAB0341F2894BE00675151 /* UIView+VWAutolayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+VWAutolayout.h"; sourceTree = "<group>"; };
+		01EAB0351F2894BE00675151 /* UIView+VWAutolayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+VWAutolayout.m"; sourceTree = "<group>"; };
+		01EAB0361F2894BE00675151 /* VWBaseContentView+VWLoading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "VWBaseContentView+VWLoading.h"; sourceTree = "<group>"; };
+		01EAB0371F2894BE00675151 /* VWBaseContentView+VWLoading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "VWBaseContentView+VWLoading.m"; sourceTree = "<group>"; };
+		01EAB0381F2894BE00675151 /* VWBaseContentView+VWMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "VWBaseContentView+VWMessage.h"; sourceTree = "<group>"; };
+		01EAB0391F2894BE00675151 /* VWBaseContentView+VWMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "VWBaseContentView+VWMessage.m"; sourceTree = "<group>"; };
+		01EAB03A1F2894BE00675151 /* VWBaseContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VWBaseContentView.h; sourceTree = "<group>"; };
+		01EAB03B1F2894BE00675151 /* VWBaseContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VWBaseContentView.m; sourceTree = "<group>"; };
+		01EAB03C1F2894BE00675151 /* VWConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VWConfig.h; sourceTree = "<group>"; };
+		01EAB03D1F2894BE00675151 /* VWConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VWConfig.m; sourceTree = "<group>"; };
+		01EAB03E1F2894BE00675151 /* VWEnum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VWEnum.h; sourceTree = "<group>"; };
+		01EAB03F1F2894BE00675151 /* VWProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VWProgressHUD.h; sourceTree = "<group>"; };
+		01EAB0401F2894BE00675151 /* VWProgressHUDManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VWProgressHUDManager.h; sourceTree = "<group>"; };
+		01EAB0411F2894BE00675151 /* VWProgressHUDManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VWProgressHUDManager.m; sourceTree = "<group>"; };
+		6AD06C13478B5DA28838F52D /* Pods-SmartHome.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartHome.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SmartHome/Pods-SmartHome.debug.xcconfig"; sourceTree = "<group>"; };
+		9E421F001F233993005D195F /* UIButton+time.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+time.h"; sourceTree = "<group>"; };
+		9E421F011F233993005D195F /* UIButton+time.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+time.m"; sourceTree = "<group>"; };
+		9E61DA0D1F4EFBDE00CD31B4 /* LightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LightViewController.h; sourceTree = "<group>"; };
+		9E61DA0E1F4EFBDE00CD31B4 /* LightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LightViewController.m; sourceTree = "<group>"; };
+		9E6FE7B31F555BBD00CFAD96 /* CCHStepSizeSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCHStepSizeSlider.h; sourceTree = "<group>"; };
+		9E6FE7B41F555BBD00CFAD96 /* CCHStepSizeSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCHStepSizeSlider.m; sourceTree = "<group>"; };
+		9E9E72231F1CC25A0013C154 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		9E9E72241F1CC25A0013C154 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		9E9E72261F1CC51A0013C154 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		9E9E72271F1CC51A0013C154 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		9E9E72281F1CC51A0013C154 /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		9E9E72291F1CC51A0013C154 /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		9E9E722C1F1CC5310013C154 /* SettingCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingCell.h; sourceTree = "<group>"; };
+		9E9E722D1F1CC5310013C154 /* SettingCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingCell.m; sourceTree = "<group>"; };
+		9E9E722E1F1CC5310013C154 /* SettingCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingCell.xib; sourceTree = "<group>"; };
+		9E9E72331F1CC55E0013C154 /* LayoutSofaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayoutSofaViewController.h; sourceTree = "<group>"; };
+		9E9E72341F1CC55E0013C154 /* LayoutSofaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LayoutSofaViewController.m; sourceTree = "<group>"; };
+		9E9E72371F1CC56C0013C154 /* OPAPViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OPAPViewController.h; sourceTree = "<group>"; };
+		9E9E72381F1CC56C0013C154 /* OPAPViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OPAPViewController.m; sourceTree = "<group>"; };
+		9E9E723A1F1CC5860013C154 /* BFDragGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFDragGestureRecognizer.h; sourceTree = "<group>"; };
+		9E9E723B1F1CC5860013C154 /* BFDragGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFDragGestureRecognizer.m; sourceTree = "<group>"; };
+		9E9E723C1F1CC5860013C154 /* BLEIToll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEIToll.h; sourceTree = "<group>"; };
+		9E9E723D1F1CC5860013C154 /* BLEIToll.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLEIToll.m; sourceTree = "<group>"; };
+		9E9E723E1F1CC5860013C154 /* BLEModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEModel.h; sourceTree = "<group>"; };
+		9E9E723F1F1CC5860013C154 /* BLEModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLEModel.m; sourceTree = "<group>"; };
+		9E9E72401F1CC5860013C154 /* CRC.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CRC.c; sourceTree = "<group>"; };
+		9E9E72411F1CC5860013C154 /* CRC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRC.h; sourceTree = "<group>"; };
+		9E9E72421F1CC5860013C154 /* DotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DotView.h; path = ../3rd/DotView.h; sourceTree = "<group>"; };
+		9E9E72431F1CC5860013C154 /* DotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DotView.m; path = ../3rd/DotView.m; sourceTree = "<group>"; };
+		9E9E72441F1CC5860013C154 /* PZMessageUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PZMessageUtils.h; sourceTree = "<group>"; };
+		9E9E72451F1CC5860013C154 /* PZMessageUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PZMessageUtils.m; sourceTree = "<group>"; };
+		9E9E724C1F1CC59B0013C154 /* CustomNavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomNavViewController.h; sourceTree = "<group>"; };
+		9E9E724D1F1CC59B0013C154 /* CustomNavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomNavViewController.m; sourceTree = "<group>"; };
+		BEA27C64B04D116ED3506CE7 /* Pods-SmartHome.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartHome.release.xcconfig"; path = "Pods/Target Support Files/Pods-SmartHome/Pods-SmartHome.release.xcconfig"; sourceTree = "<group>"; };
+		F8DF73D05373376F2E662F68 /* Pods_SmartHome.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmartHome.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01A562711EA460AA00121305 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				013C7BDD1EC9993500506FA4 /* CoreBluetooth.framework in Frameworks */,
+				01A562A61EA4D02D00121305 /* CFNetwork.framework in Frameworks */,
+				1C77FE78584F3B6645811AAE /* Pods_SmartHome.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01A5626B1EA460AA00121305 = {
+			isa = PBXGroup;
+			children = (
+				01A562761EA460AA00121305 /* SmartHome */,
+				01A562751EA460AA00121305 /* Products */,
+				D9F2E4B71A42359B4CDC7215 /* Pods */,
+				64EE48274679BE688FD6196E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		01A562751EA460AA00121305 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01A562741EA460AA00121305 /* SmartHome.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		01A562761EA460AA00121305 /* SmartHome */ = {
+			isa = PBXGroup;
+			children = (
+				01A5627A1EA460AA00121305 /* AppDelegate.h */,
+				01A5627B1EA460AA00121305 /* AppDelegate.m */,
+				01A562911EA46ED100121305 /* Config.h */,
+				01A562951EA49AEA00121305 /* BaseViewController.h */,
+				01A562961EA49AEA00121305 /* BaseViewController.m */,
+				9E708C441F1B07250052DBDD /* Home */,
+				9E708C481F1B07770052DBDD /* Sofa */,
+				9E708C4B1F1B07E20052DBDD /* SofaOP */,
+				9E61DA0C1F4EFBC500CD31B4 /* Light */,
+				9E708C451F1B07380052DBDD /* Setting */,
+				9E708C4A1F1B07A60052DBDD /* 3rd */,
+				9E708C4C1F1B08950052DBDD /* Common */,
+				01A562831EA460AA00121305 /* Assets.xcassets */,
+				01A562851EA460AA00121305 /* LaunchScreen.storyboard */,
+				01A562801EA460AA00121305 /* Main.storyboard */,
+				01A562881EA460AA00121305 /* Info.plist */,
+				01A562771EA460AA00121305 /* Supporting Files */,
+			);
+			path = SmartHome;
+			sourceTree = "<group>";
+		};
+		01A562771EA460AA00121305 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				01A562781EA460AA00121305 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		01EAB0301F2894BE00675151 /* VWProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				01EAB0311F2894BE00675151 /* Assets */,
+				01EAB0331F2894BE00675151 /* Classes */,
+			);
+			path = VWProgressHUD;
+			sourceTree = "<group>";
+		};
+		01EAB0311F2894BE00675151 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				01EAB0321F2894BE00675151 /* VWProgressHUD.bundle */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		01EAB0331F2894BE00675151 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				01EAB0341F2894BE00675151 /* UIView+VWAutolayout.h */,
+				01EAB0351F2894BE00675151 /* UIView+VWAutolayout.m */,
+				01EAB0361F2894BE00675151 /* VWBaseContentView+VWLoading.h */,
+				01EAB0371F2894BE00675151 /* VWBaseContentView+VWLoading.m */,
+				01EAB0381F2894BE00675151 /* VWBaseContentView+VWMessage.h */,
+				01EAB0391F2894BE00675151 /* VWBaseContentView+VWMessage.m */,
+				01EAB03A1F2894BE00675151 /* VWBaseContentView.h */,
+				01EAB03B1F2894BE00675151 /* VWBaseContentView.m */,
+				01EAB03C1F2894BE00675151 /* VWConfig.h */,
+				01EAB03D1F2894BE00675151 /* VWConfig.m */,
+				01EAB03E1F2894BE00675151 /* VWEnum.h */,
+				01EAB03F1F2894BE00675151 /* VWProgressHUD.h */,
+				01EAB0401F2894BE00675151 /* VWProgressHUDManager.h */,
+				01EAB0411F2894BE00675151 /* VWProgressHUDManager.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		64EE48274679BE688FD6196E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				013C7BDC1EC9993500506FA4 /* CoreBluetooth.framework */,
+				01A562A51EA4D02D00121305 /* CFNetwork.framework */,
+				F8DF73D05373376F2E662F68 /* Pods_SmartHome.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9E61DA0C1F4EFBC500CD31B4 /* Light */ = {
+			isa = PBXGroup;
+			children = (
+				9E61DA0D1F4EFBDE00CD31B4 /* LightViewController.h */,
+				9E61DA0E1F4EFBDE00CD31B4 /* LightViewController.m */,
+			);
+			path = Light;
+			sourceTree = "<group>";
+		};
+		9E6FE7B21F555BBD00CFAD96 /* CCHStepSizeSlider */ = {
+			isa = PBXGroup;
+			children = (
+				9E6FE7B31F555BBD00CFAD96 /* CCHStepSizeSlider.h */,
+				9E6FE7B41F555BBD00CFAD96 /* CCHStepSizeSlider.m */,
+			);
+			path = CCHStepSizeSlider;
+			sourceTree = "<group>";
+		};
+		9E708C441F1B07250052DBDD /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				9E9E72231F1CC25A0013C154 /* HomeViewController.h */,
+				9E9E72241F1CC25A0013C154 /* HomeViewController.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		9E708C451F1B07380052DBDD /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				9E9E72261F1CC51A0013C154 /* ProfileViewController.h */,
+				9E9E72271F1CC51A0013C154 /* ProfileViewController.m */,
+				9E9E72281F1CC51A0013C154 /* SettingViewController.h */,
+				9E9E72291F1CC51A0013C154 /* SettingViewController.m */,
+				0123169C1F592CCD0092A86D /* SofaBrokenTestViewController.h */,
+				0123169D1F592CCD0092A86D /* SofaBrokenTestViewController.m */,
+				0162EF431F3999A200EF6851 /* DrawImageViewController.h */,
+				0162EF441F3999A200EF6851 /* DrawImageViewController.m */,
+				01A1D2FA1F2EC45400F7D163 /* TestViewController.h */,
+				01A1D2FB1F2EC45400F7D163 /* TestViewController.m */,
+				017D4FF81F5D2310003750D6 /* IntroduceViewController.h */,
+				017D4FF91F5D2310003750D6 /* IntroduceViewController.m */,
+				01529E901F5EA91000F2D243 /* UserOPViewController.h */,
+				01529E911F5EA91000F2D243 /* UserOPViewController.m */,
+				9E708C461F1B07450052DBDD /* cell */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		9E708C461F1B07450052DBDD /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				9E9E722C1F1CC5310013C154 /* SettingCell.h */,
+				9E9E722D1F1CC5310013C154 /* SettingCell.m */,
+				9E9E722E1F1CC5310013C154 /* SettingCell.xib */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		9E708C481F1B07770052DBDD /* Sofa */ = {
+			isa = PBXGroup;
+			children = (
+				9E9E72331F1CC55E0013C154 /* LayoutSofaViewController.h */,
+				9E9E72341F1CC55E0013C154 /* LayoutSofaViewController.m */,
+				018F8D781F4D542600F9C8FF /* LayoutSofaView.h */,
+				018F8D791F4D542600F9C8FF /* LayoutSofaView.m */,
+			);
+			path = Sofa;
+			sourceTree = "<group>";
+		};
+		9E708C4A1F1B07A60052DBDD /* 3rd */ = {
+			isa = PBXGroup;
+			children = (
+				9E9E723E1F1CC5860013C154 /* BLEModel.h */,
+				9E9E723F1F1CC5860013C154 /* BLEModel.m */,
+				9E9E723A1F1CC5860013C154 /* BFDragGestureRecognizer.h */,
+				9E9E723B1F1CC5860013C154 /* BFDragGestureRecognizer.m */,
+				9E9E723C1F1CC5860013C154 /* BLEIToll.h */,
+				9E9E723D1F1CC5860013C154 /* BLEIToll.m */,
+				9E9E72401F1CC5860013C154 /* CRC.c */,
+				9E9E72411F1CC5860013C154 /* CRC.h */,
+				9E9E72441F1CC5860013C154 /* PZMessageUtils.h */,
+				9E9E72451F1CC5860013C154 /* PZMessageUtils.m */,
+			);
+			path = 3rd;
+			sourceTree = "<group>";
+		};
+		9E708C4B1F1B07E20052DBDD /* SofaOP */ = {
+			isa = PBXGroup;
+			children = (
+				9E9E72371F1CC56C0013C154 /* OPAPViewController.h */,
+				9E9E72381F1CC56C0013C154 /* OPAPViewController.m */,
+				016B775E1F4E838C00813DD1 /* OPHeaderView.h */,
+				016B775F1F4E838C00813DD1 /* OPHeaderView.m */,
+				016B77611F4E9E6200813DD1 /* OPFunctionView.h */,
+				016B77621F4E9E6200813DD1 /* OPFunctionView.m */,
+			);
+			path = SofaOP;
+			sourceTree = "<group>";
+		};
+		9E708C4C1F1B08950052DBDD /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				9E6FE7B21F555BBD00CFAD96 /* CCHStepSizeSlider */,
+				016B77641F4EDDF100813DD1 /* LYTBackView.h */,
+				016B77651F4EDDF100813DD1 /* LYTBackView.m */,
+				9E9E72421F1CC5860013C154 /* DotView.h */,
+				9E9E72431F1CC5860013C154 /* DotView.m */,
+				01EAB0301F2894BE00675151 /* VWProgressHUD */,
+				9E421F001F233993005D195F /* UIButton+time.h */,
+				9E421F011F233993005D195F /* UIButton+time.m */,
+				9E9E724C1F1CC59B0013C154 /* CustomNavViewController.h */,
+				9E9E724D1F1CC59B0013C154 /* CustomNavViewController.m */,
+				0193A9631F4D638A00ABC2A5 /* UILabel+CGXLabel.h */,
+				0193A9641F4D638A00ABC2A5 /* UILabel+CGXLabel.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		D9F2E4B71A42359B4CDC7215 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6AD06C13478B5DA28838F52D /* Pods-SmartHome.debug.xcconfig */,
+				BEA27C64B04D116ED3506CE7 /* Pods-SmartHome.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01A562731EA460AA00121305 /* SmartHome */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01A5628B1EA460AA00121305 /* Build configuration list for PBXNativeTarget "SmartHome" */;
+			buildPhases = (
+				B2BE39AA75861E5B3FEC74E4 /* [CP] Check Pods Manifest.lock */,
+				01A562701EA460AA00121305 /* Sources */,
+				01A562711EA460AA00121305 /* Frameworks */,
+				01A562721EA460AA00121305 /* Resources */,
+				C46308BCDA7DAE3DD2632662 /* [CP] Embed Pods Frameworks */,
+				E8A72369C591CAD90BF139B8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartHome;
+			productName = SmartHome;
+			productReference = 01A562741EA460AA00121305 /* SmartHome.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01A5626C1EA460AA00121305 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "晁广喜";
+				TargetAttributes = {
+					01A562731EA460AA00121305 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = T747EY2YN6;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 01A5626F1EA460AA00121305 /* Build configuration list for PBXProject "SmartHome" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 01A5626B1EA460AA00121305;
+			productRefGroup = 01A562751EA460AA00121305 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01A562731EA460AA00121305 /* SmartHome */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01A562721EA460AA00121305 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01A562871EA460AA00121305 /* LaunchScreen.storyboard in Resources */,
+				01A562841EA460AA00121305 /* Assets.xcassets in Resources */,
+				01A562821EA460AA00121305 /* Main.storyboard in Resources */,
+				01EAB0421F2894BE00675151 /* VWProgressHUD.bundle in Resources */,
+				9E9E72301F1CC5310013C154 /* SettingCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B2BE39AA75861E5B3FEC74E4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C46308BCDA7DAE3DD2632662 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SmartHome/Pods-SmartHome-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8A72369C591CAD90BF139B8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SmartHome/Pods-SmartHome-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01A562701EA460AA00121305 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E9E724A1F1CC5860013C154 /* DotView.m in Sources */,
+				9E9E72481F1CC5860013C154 /* BLEModel.m in Sources */,
+				01EAB0451F2894BE00675151 /* VWBaseContentView+VWMessage.m in Sources */,
+				01EAB0471F2894BE00675151 /* VWConfig.m in Sources */,
+				9E421F021F233993005D195F /* UIButton+time.m in Sources */,
+				9E9E722B1F1CC51A0013C154 /* SettingViewController.m in Sources */,
+				9E9E72491F1CC5860013C154 /* CRC.c in Sources */,
+				9E61DA0F1F4EFBDE00CD31B4 /* LightViewController.m in Sources */,
+				0123169E1F592CCD0092A86D /* SofaBrokenTestViewController.m in Sources */,
+				01A5627C1EA460AA00121305 /* AppDelegate.m in Sources */,
+				9E9E72361F1CC55E0013C154 /* LayoutSofaViewController.m in Sources */,
+				9E9E724B1F1CC5860013C154 /* PZMessageUtils.m in Sources */,
+				017D4FFA1F5D2310003750D6 /* IntroduceViewController.m in Sources */,
+				01EAB0431F2894BE00675151 /* UIView+VWAutolayout.m in Sources */,
+				016B77631F4E9E6200813DD1 /* OPFunctionView.m in Sources */,
+				01EAB0481F2894BE00675151 /* VWProgressHUDManager.m in Sources */,
+				01A562971EA49AEA00121305 /* BaseViewController.m in Sources */,
+				01529E921F5EA91000F2D243 /* UserOPViewController.m in Sources */,
+				018F8D7A1F4D542600F9C8FF /* LayoutSofaView.m in Sources */,
+				9E9E722F1F1CC5310013C154 /* SettingCell.m in Sources */,
+				01A1D2FC1F2EC45400F7D163 /* TestViewController.m in Sources */,
+				01EAB0461F2894BE00675151 /* VWBaseContentView.m in Sources */,
+				9E9E724E1F1CC59B0013C154 /* CustomNavViewController.m in Sources */,
+				01EAB0441F2894BE00675151 /* VWBaseContentView+VWLoading.m in Sources */,
+				9E9E72391F1CC56C0013C154 /* OPAPViewController.m in Sources */,
+				9E6FE7B51F555BBD00CFAD96 /* CCHStepSizeSlider.m in Sources */,
+				9E9E72461F1CC5860013C154 /* BFDragGestureRecognizer.m in Sources */,
+				0162EF451F3999A200EF6851 /* DrawImageViewController.m in Sources */,
+				0193A9651F4D638A00ABC2A5 /* UILabel+CGXLabel.m in Sources */,
+				01A562791EA460AA00121305 /* main.m in Sources */,
+				9E9E722A1F1CC51A0013C154 /* ProfileViewController.m in Sources */,
+				016B77661F4EDDF100813DD1 /* LYTBackView.m in Sources */,
+				016B77601F4E838C00813DD1 /* OPHeaderView.m in Sources */,
+				9E9E72471F1CC5860013C154 /* BLEIToll.m in Sources */,
+				9E9E72251F1CC25A0013C154 /* HomeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		01A562801EA460AA00121305 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01A562811EA460AA00121305 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		01A562851EA460AA00121305 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01A562861EA460AA00121305 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		01A562891EA460AA00121305 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		01A5628A1EA460AA00121305 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		01A5628C1EA460AA00121305 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AD06C13478B5DA28838F52D /* Pods-SmartHome.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: wang jianlong (UWTG45K2L2)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = T747EY2YN6;
+				INFOPLIST_FILE = SmartHome/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"Masonry\"",
+					"-all_load",
+					"-lstdc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.smartHome.mulin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		01A5628D1EA460AA00121305 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEA27C64B04D116ED3506CE7 /* Pods-SmartHome.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = T747EY2YN6;
+				INFOPLIST_FILE = SmartHome/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"Masonry\"",
+					"-all_load",
+					"-lstdc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.smartHome.mulin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01A5626F1EA460AA00121305 /* Build configuration list for PBXProject "SmartHome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01A562891EA460AA00121305 /* Debug */,
+				01A5628A1EA460AA00121305 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01A5628B1EA460AA00121305 /* Build configuration list for PBXNativeTarget "SmartHome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01A5628C1EA460AA00121305 /* Debug */,
+				01A5628D1EA460AA00121305 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 01A5626C1EA460AA00121305 /* Project object */;
+}
